@@ -128,6 +128,6 @@ def adding_to_dennis
           :languages => ["C"]
         }
      }
-  addition = programmer_hash[:dennis_ritchie][:languages] <y< "Assembly"
+  addition = programmer_hash[:dennis_ritchie][:languages] < "Assembly"
   programmer_hash
 end
